@@ -14,11 +14,11 @@ Stabilizatoarele de tensiune cu element de reglaj serie, care utilizează amplif
 
 Aceste stabilizatoare folosesc *amplificatoare operaționale (AO)* ca amplificatoare de eroare în configurație neinversoare. În această configurație avem:
 
-1. **Intrarea neinversoare** primește o tensiune de referință (denumită *V_(ref)*​), generată de obicei de un stabilizator parametric, cum ar fi unul cu diodă Zener.
+1.  **Intrarea neinversoare** primește o tensiune de referință (denumită *V_(ref)*​), generată de obicei de un stabilizator parametric, cum ar fi unul cu diodă Zener.
 
-2. ![](media/image1.png)**Intrarea inversoare** primește o fracțiune din tensiunea de ieșire, preluată printr-un divizor de tensiune. Divizorul este format din rezistențe care ajustează nivelul semnalului proporțional cu tensiunea de ieșire.
+2.  ![](media/image1.png)**Intrarea inversoare** primește o fracțiune din tensiunea de ieșire, preluată printr-un divizor de tensiune. Divizorul este format din rezistențe care ajustează nivelul semnalului proporțional cu tensiunea de ieșire.
 
-   *(Fig. 1) Schema bloc a stabilizatorului de tensiune cu ERS*
+    *(Fig. 1) Schema bloc a stabilizatorului de tensiune cu ERS*
 
 ## 1.2. Funcționarea amplificatorului operațional
 
@@ -321,61 +321,3 @@ Amplificatorul de eroare are A_(V) \> 3690
 # 5. Transfer Capture-PCB
 
 ![A computer circuit board with many different colored lines Description automatically generated](media/image16.png)(Fig. 16) PCB Design
-
-**Cuprins**
-
-[1. Stabilizatoarele de tensiune cu element de reglaj serie (ERS) [1](#stabilizatoarele-de-tensiune-cu-element-de-reglaj-serie-ers)](#stabilizatoarele-de-tensiune-cu-element-de-reglaj-serie-ers)
-
-[1.1. Configurația generală a stabilizatoarelor cu amplificator operațional [1](#configurația-generală-a-stabilizatoarelor-cu-amplificator-operațional)](#configurația-generală-a-stabilizatoarelor-cu-amplificator-operațional)
-
-[1.2. Funcționarea amplificatorului operațional [2](#funcționarea-amplificatorului-operațional)](#funcționarea-amplificatorului-operațional)
-
-[1.3. Principiul funcționării [2](#principiul-funcționării)](#principiul-funcționării)
-
-[1.4. Indicatori de performanță ai stabilizatoarelor liniare [2](#indicatori-de-performanță-ai-stabilizatoarelor-liniare)](#indicatori-de-performanță-ai-stabilizatoarelor-liniare)
-
-[1.5. Protecții integrate în stabilizatoare [3](#protecții-integrate-în-stabilizatoare)](#protecții-integrate-în-stabilizatoare)
-
-[1.6. Structura amplificatorului de eroare [3](#structura-amplificatorului-de-eroare)](#structura-amplificatorului-de-eroare)
-
-[1.6.1. Etajele amplificatorului [4](#etajele-amplificatorului)](#etajele-amplificatorului)
-
-[1.6.2. Caracteristici funcționale ale etajelor amplificatorului [4](#caracteristici-funcționale-ale-etajelor-amplificatorului)](#caracteristici-funcționale-ale-etajelor-amplificatorului)
-
-[1.7. Componente adiționale [4](#componente-adiționale)](#componente-adiționale)
-
-[2. Funcționarea schemei [6](#funcționarea-schemei)](#funcționarea-schemei)
-
-[2.1. Referința de tensiune [7](#referința-de-tensiune)](#referința-de-tensiune)
-
-[2.2. Etajul diferențial [7](#etajul-diferențial)](#etajul-diferențial)
-
-[2.3. Stabilizarea tensiunii [7](#stabilizarea-tensiunii)](#stabilizarea-tensiunii)
-
-[2.3.1. Componentele utilizate [8](#componentele-utilizate)](#componentele-utilizate)
-
-[2.3.2. Etajul amplificator în tensiune [8](#etajul-amplificator-în-tensiune)](#etajul-amplificator-în-tensiune)
-
-[2.4. Elementul regulator serie (ERS) [10](#elementul-regulator-serie-ers)](#elementul-regulator-serie-ers)
-
-[2.5. Circuitul de protecție la supracurent [10](#circuitul-de-protecție-la-supracurent)](#circuitul-de-protecție-la-supracurent)
-
-[2.6. Circuitul de protecție la temperatură [11](#circuitul-de-protecție-la-temperatură)](#circuitul-de-protecție-la-temperatură)
-
-[2.7. Rețeaua de reacție negativă [12](#rețeaua-de-reacție-negativă)](#rețeaua-de-reacție-negativă)
-
-[3. Punct static de funcționare (simulari) [13](#psf---tensiuni3.-punct-static-de-funcționare-simulari)](#psf---tensiuni3.-punct-static-de-funcționare-simulari)
-
-[4. Simulări funcționalitate [15](#simulări-funcționalitate)](#simulări-funcționalitate)
-
-[4.1. Reglajul tensiunii de ieșire din potențiometrul P₁ [15](#reglajul-tensiunii-de-ieșire-din-potențiometrul-p1)](#reglajul-tensiunii-de-ieșire-din-potențiometrul-p1)
-
-[4.2. Variația rezistenței de sarcina R_(LOAD) [15](#variația-rezistenței-de-sarcina-rload)](#variația-rezistenței-de-sarcina-rload)
-
-[4.3. Variația tensiunii de intrare [15](#variația-tensiunii-de-intrare)](#variația-tensiunii-de-intrare)
-
-[4.4. Variația temperaturii, protecția de temperatura [16](#variația-temperaturii-protecția-de-temperatura)](#variația-temperaturii-protecția-de-temperatura)
-
-[4.5. Simularea amplificării in buclă deschisă [16](#simularea-amplificării-in-buclă-deschisă)](#simularea-amplificării-in-buclă-deschisă)
-
-[5. Transfer Capture-PCB [17](#transfer-capture-pcb)](#transfer-capture-pcb)
